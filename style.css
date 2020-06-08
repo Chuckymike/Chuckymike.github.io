@@ -35,6 +35,10 @@ header span {
     font-size: 1.5em;
     color: #999;
 }
+#aboutMe img {
+    width: 25%;
+    border: solid #444;
+}
 
 nav {
     position: fixed;
@@ -74,7 +78,7 @@ section ul {
     padding-left: 1.5em;
 }
 
-#products {
+#projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -82,13 +86,13 @@ section ul {
     grid-column-gap: 1em;
 }
 
-#products article {
+#projects article {
     background: #ccc;
     padding: 1em;
 }
 
-#products article img {
-    width: 100%;
+#projects article img {
+    width: 75%;
     border: 1px solid #333;
 }
 
